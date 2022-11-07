@@ -3,6 +3,7 @@ import 'package:app008/pages/avatar_page.dart';
 import 'package:app008/pages/Card_page.dart';
 import 'package:app008/pages/lists_page.dart';
 import 'package:app008/pages/inputs_page.dart';
+import 'package:app008/pages/perfil_page.dart';
 
 
 import 'package:flutter/material.dart';
@@ -64,6 +65,10 @@ class HomePage extends StatelessWidget {
                 toPage: AvatarPage(),
               ),
               ItemComponentWidget(
+                title: "Perfil",
+                toPage: PerfilPage(),
+              ),
+              ItemComponentWidget(
                 title: "Alert",
                 toPage: AlertPage(),
               ),
@@ -79,6 +84,7 @@ class HomePage extends StatelessWidget {
                 title: "Lists",
                 toPage: ListsPage(),
               ),
+              
             ],
           ),
         ),

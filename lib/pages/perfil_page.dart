@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CardPage extends StatelessWidget {
-  const CardPage({super.key});
+class ListPage extends StatelessWidget {
+  const ListPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -71,7 +71,7 @@ class CardPage extends StatelessWidget {
             ),
           ),
 
-          //Card 2
+        /*   //Card 2
           Container(
             margin: const EdgeInsets.all(20.0),
             padding: const EdgeInsets.all(14.0),
@@ -169,7 +169,7 @@ class CardPage extends StatelessWidget {
                 ),
               ],
             ),
-          ),
+          ), */
         ],
       ),
     );

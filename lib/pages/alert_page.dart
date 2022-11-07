@@ -89,12 +89,12 @@ class AlertPage extends StatelessWidget {
       builder: (BuildContext context) {
         return AlertDialog(
           title: Column(
+          
             children: [
               Row(
+                mainAxisAlignment:MainAxisAlignment.center,
                 children: [
-                  Image.network('assets/images/smile.jpg',
-                 
-                      width: 100, height: 300),
+                  Image.asset('images/smile.jpg', width: 200, height: 500),
                 ],
               ),
               Text("blog  post published "),
@@ -114,11 +114,23 @@ class AlertPage extends StatelessWidget {
               onPressed: () {},
               child: Text("Aceptar"),
             ),
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text("Cancelar"),
+            ),
+            TextButton(
+              onPressed: () {},
+              child: Text("Aceptar"),
+            ),
           ],
         );
       },
     );
   }
+
+  
 
   @override
   Widget build(BuildContext context) {
@@ -156,6 +168,7 @@ class AlertPage extends StatelessWidget {
               },
               child: Text("Alert3"),
             ),
+            
           ],
         ),
       ),
