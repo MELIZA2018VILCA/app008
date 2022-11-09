@@ -93,7 +93,11 @@ class AlertPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('images/smile.jpg', width: 100, height: 150),
+                  Image.asset('images/smile.jpg', width: 100, height: 150,
+                  
+                  ),
+                  
+                  
                 ],
               ),
               Text("blog  post published "),
