@@ -37,11 +37,10 @@ class AlertPage extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Image.network(
+                  Image.asset(
                     'assets/images/aler2.png',
                     width: 70,
                     height: 70,
-                    fit: BoxFit.contain,
                   ),
                 ],
               ),
@@ -93,11 +92,17 @@ class AlertPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('images/smile.jpg', width: 100, height: 150,
-                  
+                  Container(
+                    padding: EdgeInsets.all(10),
+                    child: ClipRRect(
+                      borderRadius:  BorderRadius.circular(50),
+                      child: Image.asset(
+                        "assets/images/smile.jpg",
+                        width: 350,
+                        height: 200,
+                      ),
+                    ),
                   ),
-                  
-                  
                 ],
               ),
               Text("blog  post published "),
@@ -128,7 +133,9 @@ class AlertPage extends StatelessWidget {
               child: Text("Aceptar"),
             ),
           ],
+          
         );
+      
       },
     );
   }
