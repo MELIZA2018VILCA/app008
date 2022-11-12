@@ -33,7 +33,7 @@ class _SelectionPageState extends State<SelectionPage> {
           children: [
             TextField(
               decoration: InputDecoration(
-                hintText: '${date.year}/${date.month}/${date.day}',
+                hintText: '${date.day}/${date.month}/${date.year}',
               ),
               
               onTap : ( ) async {

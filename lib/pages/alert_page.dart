@@ -95,7 +95,7 @@ class AlertPage extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.all(10),
                     child: ClipRRect(
-                      borderRadius:  BorderRadius.circular(50),
+                      borderRadius: BorderRadius.circular(50),
                       child: Image.asset(
                         "assets/images/smile.jpg",
                         width: 350,
@@ -116,7 +116,7 @@ class AlertPage extends StatelessWidget {
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: Text("Cannncelar"),
+              child: Text("Cancelar"),
             ),
             TextButton(
               onPressed: () {},
@@ -126,16 +126,14 @@ class AlertPage extends StatelessWidget {
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: Text("Cannncelar"),
+              child: Text("Cancelar"),
             ),
             TextButton(
               onPressed: () {},
               child: Text("Aceptar"),
             ),
           ],
-          
         );
-      
       },
     );
   }

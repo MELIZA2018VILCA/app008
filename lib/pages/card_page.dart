@@ -14,8 +14,8 @@ class CardPage extends StatelessWidget {
         children: [
           //Card 1
           Container(
-            margin: const EdgeInsets.all(20.0),
-            padding: const EdgeInsets.all(14.0),
+            margin: const EdgeInsets.all(15.0),
+            padding: const EdgeInsets.all(10.0),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(18.0),
@@ -73,8 +73,8 @@ class CardPage extends StatelessWidget {
 
           //Card 2
           Container(
-            margin: const EdgeInsets.all(20.0),
-            padding: const EdgeInsets.all(14.0),
+            margin: const EdgeInsets.all(15.0),
+            padding: const EdgeInsets.all(10.0),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(18.0),
@@ -130,7 +130,7 @@ class CardPage extends StatelessWidget {
 
           // Card 3
           Container(
-            margin: const EdgeInsets.all(20.0),
+            margin: const EdgeInsets.all(15.0),
             padding: const EdgeInsets.all(10.0),
             decoration: BoxDecoration(
               color: Colors.white,
